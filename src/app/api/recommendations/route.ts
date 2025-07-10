@@ -47,11 +47,11 @@ export async function POST(request: NextRequest) {
     const params = new URLSearchParams({
       seed_genres: filters.genres.slice(0, 5).join(','), // Spotify allows max 5 seeds
       target_tempo: filters.tempo.toString(),
-      target_energy: filters.energy.toString(),
-      target_danceability: filters.danceability.toString(),
-      target_valence: filters.valence.toString(),
-      target_acousticness: filters.acousticness.toString(),
-      target_instrumentalness: filters.instrumentalness.toString(),
+      //target_energy: filters.energy.toString(),
+      //target_danceability: filters.danceability.toString(),
+      //target_valence: filters.valence.toString(),
+      //target_acousticness: filters.acousticness.toString(),
+      //target_instrumentalness: filters.instrumentalness.toString(),
       limit: '20', // Get 20 recommendations
     });
 
