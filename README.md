@@ -1,6 +1,7 @@
-# 🎵 MusicFinder - AI-Powered Music Recommendation App
+# 🎵 Algorhythm
 
 A modern, responsive web application that helps musicians and music lovers discover new tracks based on specific audio attributes using the Spotify Web API.
+(The specific Spotify request that was used  has since been deprecated, app unfortunatly no longer works)
 
 ## ✨ Features
 
@@ -14,44 +15,7 @@ A modern, responsive web application that helps musicians and music lovers disco
 
 ## 🚀 Quick Start
 
-### Prerequisites
-
-- Node.js 18+ installed on your machine
-- A Spotify Developer Account (free)
-
-### 1. Clone and Install
-
-```bash
-git clone <your-repo-url>
-cd music-recommendation-app
-npm install
-```
-
-### 2. Set up Spotify API
-
-1. Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
-2. Create a new app
-3. Copy your Client ID and Client Secret
-4. Add `http://localhost:3000` to your app's redirect URIs
-
-### 3. Configure Environment Variables
-
-Create a `.env.local` file in the root directory:
-
-```env
-SPOTIFY_CLIENT_ID=your_spotify_client_id_here
-SPOTIFY_CLIENT_SECRET=your_spotify_client_secret_here
-NEXTAUTH_URL=http://localhost:3000
-NEXTAUTH_SECRET=your_nextauth_secret_here
-```
-
-### 4. Run the Application
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Go to https://alg0rhythm.netlify.app/
 
 ## 🎛️ How to Use
 
