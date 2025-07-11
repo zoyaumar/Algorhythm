@@ -1,7 +1,7 @@
 # 🎵 Algorhythm
 
 A modern, responsive web application that helps musicians and music lovers discover new tracks based on specific audio attributes using the Spotify Web API.
-(The specific Spotify request that was used  has since been deprecated, app unfortunatly no longer works)
+(The specific Spotify endpoint that was used has since been deprecated, app unfortunatly no longer works)
 
 ## ✨ Features
 
